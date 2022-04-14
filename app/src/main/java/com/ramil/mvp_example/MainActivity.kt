@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity(), MainView {
         supportFragmentManager
             .beginTransaction()
             .replace(R.id.fragment_container, SplashFragment())
+            .commit()
     }
 
     override fun updateUI() {
