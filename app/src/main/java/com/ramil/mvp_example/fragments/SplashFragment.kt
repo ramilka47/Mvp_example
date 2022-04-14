@@ -26,6 +26,8 @@ class SplashFragment : Fragment(), SplashView {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // используется для сохранения состояния фрагмента в случае переворота
+        // (есть множество способов неиспользования данного метода)
         retainInstance = true
         presenter.onCreate()
     }

@@ -1,5 +1,6 @@
 package com.ramil.mvp_example
 
+// Можно инициализировать с инъекциями
 class MainPresenter {
 
     private lateinit var mainView: MainView
